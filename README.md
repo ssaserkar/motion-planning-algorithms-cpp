@@ -11,7 +11,7 @@ This project implements various motion planning algorithms for a TurtleBot3 robo
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/turtlebot3_motion_planning.git
+   git clone https://github.com/ssaserkar/turtlebot3_motion_planning.git
    cd turtlebot3_motion_planning
 2. **Build the package**:
    ```bash
