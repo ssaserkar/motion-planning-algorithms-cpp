@@ -20,4 +20,10 @@ This project implements various motion planning algorithms for a TurtleBot3 robo
    source install/local_setup.bash
 
 ## Usage
-1. Launch TurtleBot3 Simulation:
+1. **Launch TurtleBot3 Simulation**:
+   ```bash
+   export TURTLEBOT3_MODEL=burger
+   ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+2. **Run the Motion Planner Node**:
+   ```bash
+   ros2 run turtlebot3_motion_planning motion_planner
